@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'integralbold'; /*a name to be used later*/
+    src: url('../font/Fontspring-DEMO-integralcf-bold.otf'); /*URL to font*/
+}
+
+
+@font-face {
+    font-family: 'integralmedium'; /*a name to be used later*/
+    src: url('../font/Fontspring-DEMO-integralcf-medium.otf'); /*URL to font*/
+}
+
+.integralbold{
+    font-family: 'integralbold';
+}
+
+.integralmedium{
+    font-family: 'integralmedium';
+}
