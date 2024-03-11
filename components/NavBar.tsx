@@ -49,7 +49,7 @@ const NavBar = () => {
                 </div>
 
 
-            <div className={'w-full bg-white sticky left-0 top-0  h-full z-10 '}>
+            <div className={'w-full bg-white sticky left-0 top-0  h-full z-20 '}>
                 <div className={' border-b-[1px] lg:px-[50px] xl:px-[100px] px-[100px] 2xl:px-[120px] border-[#EFEFEF]  py-[39px]  justify-between w-full flex flex-row'}>
                     <div className={' flex-row flex xl:gap-[30px] gap-[30px] lg:gap-[20px]'}>
                         <h5 className={'integralbold text-[24px] text-[#3D00B7]'}>

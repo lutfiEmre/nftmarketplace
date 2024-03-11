@@ -49,3 +49,7 @@ body{
   background: rgba(255, 255, 255, 0.20);
   backdrop-filter: blur(25px);
 }
+.bg2{
+  background: rgba(217, 224, 236, 0.20);
+  backdrop-filter: blur(25px);
+}
