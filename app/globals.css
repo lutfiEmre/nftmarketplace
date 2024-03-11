@@ -29,6 +29,12 @@ body{
   font-weight:500;
   font-style: normal;
 }
+.dmsanssemi{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:600;
+  font-style: normal;
+}
 
 .dmsansbold{
   font-family: "DM Sans", sans-serif;
@@ -36,4 +42,10 @@ body{
   font-weight:700;
   font-style: normal;
 
+}
+
+.bg1{
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.20);
+  backdrop-filter: blur(25px);
 }
