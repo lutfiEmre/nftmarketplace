@@ -19,12 +19,13 @@ const Category = () => {
     });
 
     useEffect(() => {
-        const veri : NodeListOf<Element> = document.querySelectorAll('.categoryitem')
+        const veri: NodeListOf<Element> = document.querySelectorAll('.categoryitem');
         setSees({
             ...sees,
-            items: veri
-        })
-    },[])
+            items: Array.from(veri)
+        });
+    }, []);
+
 
 
     const handleClick = () => {
