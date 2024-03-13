@@ -36,7 +36,7 @@ import Footer from "@/components/Footer";
 const MainPage = () => {
     return (
         <div className={'flex flex-col'}>
-            <div className={'pt-[60px] lg:px-[50px] xl:px-[100px] px-[100px] 2xl:px-[120px] flex flex-col lg:flex-row'}>
+            <div className={'pt-[20px] lg:px-[50px] xl:px-[100px] px-[50px] 2xl:px-[120px] flex flex-col lg:flex-row'}>
                 <div className={'flex flex-col gap-[30px]'}>
                     <h5 className={'integralbold lg:text-start text-center text-[40px] lg:w-[500px] xl:w-[700px]'}>
                         DISCOVER, AND COLLECT DIGITAL ARTS NFT
@@ -45,7 +45,7 @@ const MainPage = () => {
                         Digital marketplace for crypto collectibles and non-fungible tokens (NFTs). Buy, Sell, and discover exclusive digital assets.
                     </h6>
                     <div className={'relative flex lg:justify-start lg:items-start justify-center items-center'}>
-                        <div className={'w-[209px] z-0 mt-[25px] flex cursor-pointer justify-center items-center text-white h-[65px] bg-[#3D00B7] rounded-[60px]'}>
+                        <div className={'w-[209px] z-0 mt-[25px] flex cursor-pointer justify-center items-center text-white h-[65px] bg-[#3D00B7] hover:bg-[#5D0CFF] cursor-pointer rounded-[60px]'}>
                             <h5 className={'dmsansbold text-[20px]'}>
                                 Explore Now
                             </h5>
@@ -337,7 +337,7 @@ const MainPage = () => {
                                             1 of 8
                                         </h6>
                                     </div>
-                                    <div className={'px-[20px] mt-[6px] h-[40px] flex justify-center items-center w-fit lg:py-[6px]  h-[40px] flex justify-center items-centerxl:py-[14px] rounded-[50px] bg-[#3D00B7]'}>
+                                    <div className={'px-[20px] mt-[6px] h-[40px] flex justify-center items-center w-fit lg:py-[6px]  h-[40px] flex justify-center items-centerxl:py-[14px] rounded-[50px] bg-[#3D00B7] hover:bg-[#5D0CFF] cursor-pointer'}>
                                         <h5 className={'text-white'}>Place a bid</h5>
                                     </div>
 
@@ -694,7 +694,7 @@ const MainPage = () => {
                     </div>
                 </div>
             </div>
-            <div className={'py-[50px] lg:py-[100px] gap-[50px] w-full flex flex-col lg:flex-row justify-center items-center'}>
+            <div className={'py-[50px] lg:py-[100px] px-[50px] gap-[50px] w-full flex flex-col lg:flex-row justify-center items-center'}>
                 <Image className={'xl:w-[606px] w-[450px] h-auto'} width={640} height={606} src={extrasvg} alt={''}/>
                 <div className={'flex flex-col items-center lg:items-start gap-[20px]'}>
                     <h5 className={'integralbold text-[32px] w-[320px] break-words'}>
@@ -703,52 +703,52 @@ const MainPage = () => {
                     <h6 className={'text-[18px] dmsansregular w-[350px] sm:w-[550px] md:w-[600px] lg:w-[517px] text-[#636363]'}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi ac phasellus placerat a pellentesque tellus sed egestas. Et tristique dictum sit tristique sed non. Lacinia lorem id consectetur pretium diam ut. Pellentesque eu sit blandit fringilla risus faucibus.
                     </h6>
-                    <div className={'w-[180px] lg:w-[212px] h-[50px] lg:h-[65px] cursor-pointer flex justify-center items-center rounded-[60px] bg-[#3D00B7]'}>
-                        <h4 className={'text-white select-none dmsansmedium  text-[17px] lg:text-[20px]'}>
+                    <div className={'w-[180px] lg:w-[212px] group h-[50px] hover:bg-[#5D0CFF] lg:h-[65px] cursor-pointer flex justify-center items-center rounded-[60px] bg-[#3D00B7] hover:bg-[#5D0CFF] cursor-pointer'}>
+                        <h4 className={'text-white select-none dmsansmedium text-[17px] lg:text-[20px]'}>
                             Sign Up Now
                         </h4>
                     </div>
                 </div>
             </div>
-            <div className={'py-[100px] w-full lg:px-[50px] xl:px-[100px] px-[100px]  bg-[#D9E0EC] bg-opacity-20'}>
+            <div className={'py-[100px] w-full lg:px-[50px] xl:px-[100px] px-[50px] bg-[#D9E0EC] bg-opacity-20'}>
                 <div className={'flex flex-col  w-full gap-[36px]'}>
                     <h5 className={'integralbold  text-[24px]'}>
                         Discover more NFTs
                     </h5>
                     <div className={'flex flex-row gap-[20px] flex-wrap justify-between w-full'}>
                         <div className={'flex flex-wrap flex-row gap-[20px]'}>
-                            <div className={'px-[20px] py-[10px] rounded-[100px] text-white bg-[#3D00B7]'}>
+                            <div className={'px-[20px] py-[10px] rounded-[100px] text-white bg-[#3D00B7] hover:bg-[#5D0CFF] cursor-pointer'}>
                                 <h4 className={'text-[14px] font-medium'}>
                                     All Categories
                                 </h4>
                             </div>
-                            <div className={'px-[20px] py-[10px] rounded-[100px] text-black bg-opacity-20 bg-[#DCDCDC]'}>
+                            <div className={'px-[20px] py-[10px] rounded-[100px] text-black bg-opacity-20 bg-[#DCDCDC] cursor-pointer'}>
                                 <h4 className={'text-[14px] font-medium'}>
                                     Art
                                 </h4>
                             </div>
-                            <div className={'px-[20px] py-[10px] rounded-[100px] text-black bg-opacity-20 bg-[#DCDCDC]'}>
+                            <div className={'px-[20px] py-[10px] rounded-[100px] text-black bg-opacity-20 bg-[#DCDCDC] cursor-pointer'}>
                                 <h4 className={'text-[14px] font-medium'}>
                                     Celebrities
                                 </h4>
                             </div>
-                            <div className={'px-[20px] py-[10px] rounded-[100px] text-black bg-opacity-20 bg-[#DCDCDC]'}>
+                            <div className={'px-[20px] py-[10px] rounded-[100px] text-black bg-opacity-20 bg-[#DCDCDC] cursor-pointer'}>
                                 <h4 className={'text-[14px] font-medium'}>
                                     Gaming
                                 </h4>
                             </div>
-                            <div className={'px-[20px] py-[10px] rounded-[100px] text-black bg-opacity-20 bg-[#DCDCDC]'}>
+                            <div className={'px-[20px] py-[10px] rounded-[100px] text-black bg-opacity-20 bg-[#DCDCDC] cursor-pointer'}>
                                 <h4 className={'text-[14px] font-medium'}>
                                     Sport
                                 </h4>
                             </div>
-                            <div className={'px-[20px] py-[10px] rounded-[100px] text-black bg-opacity-20 bg-[#DCDCDC]'}>
+                            <div className={'px-[20px] py-[10px] rounded-[100px] text-black bg-opacity-20 bg-[#DCDCDC] cursor-pointer'}>
                                 <h4 className={'text-[14px] font-medium'}>
                                     Music
                                 </h4>
                             </div>
                         </div>
-                        <div className={'w-[135px] cursor-pointer rounded-[100px] h-[44px] gap-[5px] flex justify-center items-center bg-[#DCDCDC] px-[20px] py-[10px] bg-opacity-20'}>
+                        <div className={'w-[135px] cursor-pointer rounded-[100px] h-[44px] gap-[5px] flex justify-center items-center bg-[#DCDCDC] cursor-pointer px-[20px] py-[10px] bg-opacity-20'}>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                 <g clipPath="url(#clip0_220_743)">
                                     <path d="M9.33333 20H14.6667V17.3333H9.33333V20ZM0 4V6.66667H24V4H0ZM4 13.3333H20V10.6667H4V13.3333Z" fill="#371C87"/>

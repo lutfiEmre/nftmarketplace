@@ -42,9 +42,9 @@ const Category = () => {
     return (
         <div className={'flex flex-col items-center justify-center w-full'}>
             <div className={'grid lg:grid-cols-4 justify-items-center justify-content-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3  xl:grid-cols-4 gap-[40px] w-full'}>
-                <div className={'w-fit flex flex-col flex bg-white rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
+                <div className={'w-full sm:w-fit  flex flex-col flex bg-white rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
                     <div className={'flex relative'}>
-                        <Image className={'w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
+                        <Image className={'w-full sm:w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
                         <div className={'w-fit absolute bottom-[-10px] left-[12px] flex flex-row gap-[0px]'}>
                             <Image className={''} src={profile2} width={32} height={32} alt={''}/>
                             <Image className={'-ml-[10px]'} src={profile3} width={32} height={32} alt={''}/>
@@ -88,9 +88,9 @@ const Category = () => {
                     </div>
 
                 </div>
-                <div className={'w-fit flex flex-col flex bg-white rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
+                <div className={'w-full sm:w-fit  flex flex-col flex bg-white rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
                     <div className={'flex relative'}>
-                        <Image className={'w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
+                        <Image className={'w-full sm:w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
                         <div className={'w-fit absolute bottom-[-10px] left-[12px] flex flex-row gap-[0px]'}>
                             <Image className={''} src={profile2} width={32} height={32} alt={''}/>
                             <Image className={'-ml-[10px]'} src={profile3} width={32} height={32} alt={''}/>
@@ -134,9 +134,9 @@ const Category = () => {
                     </div>
 
                 </div>
-                <div className={'w-fit flex flex-col flex bg-white rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
+                <div className={'w-full sm:w-fit  flex flex-col flex bg-white rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
                     <div className={'flex relative'}>
-                        <Image className={'w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
+                        <Image className={'w-full sm:w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
                         <div className={'w-fit absolute bottom-[-10px] left-[12px] flex flex-row gap-[0px]'}>
                             <Image className={''} src={profile2} width={32} height={32} alt={''}/>
                             <Image className={'-ml-[10px]'} src={profile3} width={32} height={32} alt={''}/>
@@ -180,9 +180,9 @@ const Category = () => {
                     </div>
 
                 </div>
-                <div className={'w-fit flex flex-col flex bg-white rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
+                <div className={'w-full sm:w-fit  flex flex-col flex bg-white rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
                     <div className={'flex relative'}>
-                        <Image className={'w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
+                        <Image className={'w-full sm:w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
                         <div className={'w-fit absolute bottom-[-10px] left-[12px] flex flex-row gap-[0px]'}>
                             <Image className={''} src={profile2} width={32} height={32} alt={''}/>
                             <Image className={'-ml-[10px]'} src={profile3} width={32} height={32} alt={''}/>
@@ -226,9 +226,9 @@ const Category = () => {
                     </div>
 
                 </div>
-                <div className={'w-fit flex flex-col flex bg-white rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
+                <div className={'w-full sm:w-fit  flex flex-col flex bg-white rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
                     <div className={'flex relative'}>
-                        <Image className={'w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
+                        <Image className={'w-full sm:w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
                         <div className={'w-fit absolute bottom-[-10px] left-[12px] flex flex-row gap-[0px]'}>
                             <Image className={''} src={profile2} width={32} height={32} alt={''}/>
                             <Image className={'-ml-[10px]'} src={profile3} width={32} height={32} alt={''}/>
@@ -272,9 +272,9 @@ const Category = () => {
                     </div>
 
                 </div>
-                <div className={'w-fit flex flex-col flex bg-white rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
+                <div className={'w-full sm:w-fit  flex flex-col flex bg-white rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
                     <div className={'flex relative'}>
-                        <Image className={'w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
+                        <Image className={'w-full sm:w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
                         <div className={'w-fit absolute bottom-[-10px] left-[12px] flex flex-row gap-[0px]'}>
                             <Image className={''} src={profile2} width={32} height={32} alt={''}/>
                             <Image className={'-ml-[10px]'} src={profile3} width={32} height={32} alt={''}/>
@@ -318,9 +318,9 @@ const Category = () => {
                     </div>
 
                 </div>
-                <div className={'w-fit flex flex-col flex bg-white rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
+                <div className={'w-full sm:w-fit  flex flex-col flex bg-white rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
                     <div className={'flex relative'}>
-                        <Image className={'w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
+                        <Image className={'w-full sm:w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
                         <div className={'w-fit absolute bottom-[-10px] left-[12px] flex flex-row gap-[0px]'}>
                             <Image className={''} src={profile2} width={32} height={32} alt={''}/>
                             <Image className={'-ml-[10px]'} src={profile3} width={32} height={32} alt={''}/>
@@ -364,9 +364,9 @@ const Category = () => {
                     </div>
 
                 </div>
-                <div className={'w-fit flex flex-col 8 flex bg-white rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
+                <div className={'w-full sm:w-fit  flex flex-col 8 flex bg-white rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
                     <div className={'flex relative'}>
-                        <Image className={'w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
+                        <Image className={'w-full sm:w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
                         <div className={'w-fit absolute bottom-[-10px] left-[12px] flex flex-row gap-[0px]'}>
                             <Image className={''} src={profile2} width={32} height={32} alt={''}/>
                             <Image className={'-ml-[10px]'} src={profile3} width={32} height={32} alt={''}/>
@@ -410,9 +410,9 @@ const Category = () => {
                     </div>
 
                 </div>
-                <div className={'w-fit flex flex-col 9 flex bg-white hidden rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
+                <div className={'w-full sm:w-fit  flex flex-col 9 flex bg-white hidden rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
                     <div className={'flex relative'}>
-                        <Image className={'w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
+                        <Image className={'w-full sm:w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
                         <div className={'w-fit absolute bottom-[-10px] left-[12px] flex flex-row gap-[0px]'}>
                             <Image className={''} src={profile2} width={32} height={32} alt={''}/>
                             <Image className={'-ml-[10px]'} src={profile3} width={32} height={32} alt={''}/>
@@ -456,9 +456,9 @@ const Category = () => {
                     </div>
 
                 </div>
-                <div className={'w-fit flex flex-col 10 flex bg-white hidden rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
+                <div className={'w-full sm:w-fit  flex flex-col 10 flex bg-white hidden rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
                     <div className={'flex relative'}>
-                        <Image className={'w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
+                        <Image className={'w-full sm:w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
                         <div className={'w-fit absolute bottom-[-10px] left-[12px] flex flex-row gap-[0px]'}>
                             <Image className={''} src={profile2} width={32} height={32} alt={''}/>
                             <Image className={'-ml-[10px]'} src={profile3} width={32} height={32} alt={''}/>
@@ -502,9 +502,9 @@ const Category = () => {
                     </div>
 
                 </div>
-                <div className={'w-fit flex flex-col flex bg-white hidden rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
+                <div className={'w-full sm:w-fit  flex flex-col flex bg-white hidden rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
                     <div className={'flex relative'}>
-                        <Image className={'w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
+                        <Image className={'w-full sm:w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
                         <div className={'w-fit absolute bottom-[-10px] left-[12px] flex flex-row gap-[0px]'}>
                             <Image className={''} src={profile2} width={32} height={32} alt={''}/>
                             <Image className={'-ml-[10px]'} src={profile3} width={32} height={32} alt={''}/>
@@ -548,9 +548,9 @@ const Category = () => {
                     </div>
 
                 </div>
-                <div className={'w-fit flex flex-col flex bg-white hidden rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
+                <div className={'w-full sm:w-fit  flex flex-col flex bg-white hidden rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
                     <div className={'flex relative'}>
-                        <Image className={'w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
+                        <Image className={'w-full sm:w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
                         <div className={'w-fit absolute bottom-[-10px] left-[12px] flex flex-row gap-[0px]'}>
                             <Image className={''} src={profile2} width={32} height={32} alt={''}/>
                             <Image className={'-ml-[10px]'} src={profile3} width={32} height={32} alt={''}/>
@@ -594,9 +594,9 @@ const Category = () => {
                     </div>
 
                 </div>
-                <div className={'w-fit flex flex-col flex bg-white hidden rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
+                <div className={'w-full sm:w-fit  flex flex-col flex bg-white hidden rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
                     <div className={'flex relative'}>
-                        <Image className={'w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
+                        <Image className={'w-full sm:w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
                         <div className={'w-fit absolute bottom-[-10px] left-[12px] flex flex-row gap-[0px]'}>
                             <Image className={''} src={profile2} width={32} height={32} alt={''}/>
                             <Image className={'-ml-[10px]'} src={profile3} width={32} height={32} alt={''}/>
@@ -640,9 +640,9 @@ const Category = () => {
                     </div>
 
                 </div>
-                <div className={'w-fit flex flex-col flex bg-white hidden rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
+                <div className={'w-full sm:w-fit  flex flex-col flex bg-white hidden rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
                     <div className={'flex relative'}>
-                        <Image className={'w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
+                        <Image className={'w-full sm:w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
                         <div className={'w-fit absolute bottom-[-10px] left-[12px] flex flex-row gap-[0px]'}>
                             <Image className={''} src={profile2} width={32} height={32} alt={''}/>
                             <Image className={'-ml-[10px]'} src={profile3} width={32} height={32} alt={''}/>
@@ -686,9 +686,9 @@ const Category = () => {
                     </div>
 
                 </div>
-                <div className={'w-fit flex flex-col flex bg-white hidden rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
+                <div className={'w-full sm:w-fit  flex flex-col flex bg-white hidden rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
                     <div className={'flex relative'}>
-                        <Image className={'w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
+                        <Image className={'w-full sm:w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
                         <div className={'w-fit absolute bottom-[-10px] left-[12px] flex flex-row gap-[0px]'}>
                             <Image className={''} src={profile2} width={32} height={32} alt={''}/>
                             <Image className={'-ml-[10px]'} src={profile3} width={32} height={32} alt={''}/>
@@ -732,9 +732,9 @@ const Category = () => {
                     </div>
 
                 </div>
-                <div className={'w-fit flex flex-col flex bg-white hidden rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
+                <div className={'w-full sm:w-fit  flex flex-col flex bg-white hidden rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
                     <div className={'flex relative'}>
-                        <Image className={'w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
+                        <Image className={'w-full sm:w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
                         <div className={'w-fit absolute bottom-[-10px] left-[12px] flex flex-row gap-[0px]'}>
                             <Image className={''} src={profile2} width={32} height={32} alt={''}/>
                             <Image className={'-ml-[10px]'} src={profile3} width={32} height={32} alt={''}/>
@@ -778,9 +778,9 @@ const Category = () => {
                     </div>
 
                 </div>
-                <div className={'w-fit flex flex-col flex bg-white hidden rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
+                <div className={'w-full sm:w-fit  flex flex-col flex bg-white hidden rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
                     <div className={'flex relative'}>
-                        <Image className={'w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
+                        <Image className={'w-full sm:w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
                         <div className={'w-fit absolute bottom-[-10px] left-[12px] flex flex-row gap-[0px]'}>
                             <Image className={''} src={profile2} width={32} height={32} alt={''}/>
                             <Image className={'-ml-[10px]'} src={profile3} width={32} height={32} alt={''}/>
@@ -824,9 +824,9 @@ const Category = () => {
                     </div>
 
                 </div>
-                <div className={'w-fit flex flex-col flex bg-white hidden rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
+                <div className={'w-full sm:w-fit  flex flex-col flex bg-white hidden rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
                     <div className={'flex relative'}>
-                        <Image className={'w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
+                        <Image className={'w-full sm:w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
                         <div className={'w-fit absolute bottom-[-10px] left-[12px] flex flex-row gap-[0px]'}>
                             <Image className={''} src={profile2} width={32} height={32} alt={''}/>
                             <Image className={'-ml-[10px]'} src={profile3} width={32} height={32} alt={''}/>
@@ -870,9 +870,9 @@ const Category = () => {
                     </div>
 
                 </div>
-                <div className={'w-fit flex flex-col flex bg-white hidden rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
+                <div className={'w-full sm:w-fit  flex flex-col flex bg-white hidden rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
                     <div className={'flex relative'}>
-                        <Image className={'w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
+                        <Image className={'w-full sm:w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
                         <div className={'w-fit absolute bottom-[-10px] left-[12px] flex flex-row gap-[0px]'}>
                             <Image className={''} src={profile2} width={32} height={32} alt={''}/>
                             <Image className={'-ml-[10px]'} src={profile3} width={32} height={32} alt={''}/>
@@ -916,9 +916,9 @@ const Category = () => {
                     </div>
 
                 </div>
-                <div className={'w-fit flex flex-col flex bg-white hidden rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
+                <div className={'w-full sm:w-fit  flex flex-col flex bg-white hidden rounded-[14px] categoryitem p-[11px] gap-[15px]'}>
                     <div className={'flex relative'}>
-                        <Image className={'w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
+                        <Image className={'w-full sm:w-[242px] h-auto object-cover rounded-[12px]'} width={242} height={222} src={ctag1} alt={''}/>
                         <div className={'w-fit absolute bottom-[-10px] left-[12px] flex flex-row gap-[0px]'}>
                             <Image className={''} src={profile2} width={32} height={32} alt={''}/>
                             <Image className={'-ml-[10px]'} src={profile3} width={32} height={32} alt={''}/>
@@ -964,8 +964,8 @@ const Category = () => {
                 </div>
 
             </div>
-            <div onClick={() => {handleClick()}} className={'mt-[55px] w-[179px] cursor-pointer rounded-[50px] flex justify-center items-center h-[66px] border-[2px] border-[#3D00B7]'}>
-                <h6 className={'text-[#3D00B7] dmsansmedium text-[20px]'}>
+            <div onClick={() => {handleClick()}} className={'mt-[55px] group active:bg-[#3D00B7] hover:bg-[#3D00B7] active:!text-white transition-all duration-200 w-[179px] cursor-pointer rounded-[50px] flex justify-center items-center h-[66px] border-[2px] border-[#3D00B7]'}>
+                <h6 className={'text-[#3D00B7] dmsansmedium group-active:text-white group-hover:text-white text-[20px]'}>
                     More NFTs
                 </h6>
             </div>
