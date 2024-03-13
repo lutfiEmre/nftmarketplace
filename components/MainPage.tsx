@@ -4,16 +4,33 @@ import nftbg1 from '@/public/bg/bg1.svg'
 import nftbg2 from '@/public/bg/bg2.svg'
 import nftbg3 from '@/public/bg/bg3.svg'
 import profile1 from '@/public/bg/profile.svg'
+import profile2 from '@/public/bg/profile2.svg'
+import profile3 from '@/public/bg/profile3.svg'
+import profile4 from '@/public/bg/profile5.svg'
+import profile5 from '@/public/bg/profile6.svg'
 import amblem from '@/public/bg/digital.svg'
 import unsplash1 from '@/public/bg/unsplash1.svg'
 import unsplash2 from '@/public/bg/unsplash2.svg'
 import unsplash3 from '@/public/bg/unsplash3.svg'
+import unsp1 from '@/public/bg/UN1.svg'
+import unsp2 from '@/public/bg/UN2.svg'
+import unsp3 from '@/public/bg/UN3.svg'
+import unsp4 from '@/public/bg/UN4.svg'
+import unsp5 from '@/public/bg/U.svg'
+import unsp6 from '@/public/bg/UN5.svg'
+import ctag1 from '@/public/bg/ctag1.svg'
+import ctag2 from '@/public/bg/ctag2.svg'
+import ctag3 from '@/public/bg/ctag3.svg'
+import ctag4 from '@/public/bg/ctag4.svg'
+
 import unsplash4 from '@/public/bg/unsplash4.svg'
 import exprofile1 from '@/public/bg/exprofile1.svg'
 import exprofile2 from '@/public/bg/exprofile2.svg'
 import exprofile3 from '@/public/bg/exprofile3.svg'
 import exprofile4 from '@/public/bg/exprofile4.svg'
 import exprofile5 from '@/public/bg/exprofile5.svg'
+import extrasvg from '@/public/bg/extra1s.svg'
+import Category from "@/components/Category";
 
 const MainPage = () => {
     return (
@@ -252,7 +269,7 @@ const MainPage = () => {
 
                 </div>
             </div>
-            <div className={'mt-[00px] lg:py-[100px] lg:px-[50px] xl:px-[100px] px-[100px] w-full flex  flex-row'}>
+            <div className={'mt-[00px] py-[50px] lg:py-[100px] lg:px-[50px] xl:px-[100px] px-[100px] w-full flex  flex-row'}>
                 <div className={'flex  w-full mt-[50px] lg:mt-0 lg:flex-col xl:flex-row h-full flex-col  lg:justify-center xl:justify-start justify-center items-center lg:items-center xl:items-start gap-[70px] lg:gap-[50px]  2xl:gap-[70px] xl:gap-[50px]'}>
                     <div className={'flex flex-col gap-[32px]'}>
                         <Image className={'rounded-[24px] 2xl:w-[600px] w-[450px]'} src={unsplash1} width={400} heigh={400} alt={''}/>
@@ -302,7 +319,7 @@ const MainPage = () => {
                                         <Image width={34} height={34}  src={profile1} alt={''}/>
                                         <div className={'p-[8px] flex flex-row gap-[5px] items-center rounded-[6px] border-[1px] border-[#00AC4F]'}>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="9" height="14" viewBox="0 0 9 14" fill="none">
-                                                <g clip-path="url(#clip0_220_568)">
+                                                <g clipPath="url(#clip0_220_568)">
                                                     <path d="M8.31533 7.13126L4.26566 9.66876L0.213318 7.13126L4.26566 0L8.31533 7.13126ZM4.26566 10.4836L0.213318 7.9461L4.26566 14L8.318 7.9461L4.26566 10.4836V10.4836Z" fill="#00AC4F"/>
                                                 </g>
                                                 <defs>
@@ -335,7 +352,7 @@ const MainPage = () => {
                                         <Image width={34} height={34}  src={profile1} alt={''}/>
                                         <div className={'p-[8px] flex flex-row gap-[5px] items-center rounded-[6px] border-[1px] border-[#00AC4F]'}>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="9" height="14" viewBox="0 0 9 14" fill="none">
-                                                <g clip-path="url(#clip0_220_568)">
+                                                <g clipPath="url(#clip0_220_568)">
                                                     <path d="M8.31533 7.13126L4.26566 9.66876L0.213318 7.13126L4.26566 0L8.31533 7.13126ZM4.26566 10.4836L0.213318 7.9461L4.26566 14L8.318 7.9461L4.26566 10.4836V10.4836Z" fill="#00AC4F"/>
                                                 </g>
                                                 <defs>
@@ -368,7 +385,7 @@ const MainPage = () => {
                                         <Image width={34} height={34}  src={profile1} alt={''}/>
                                         <div className={'p-[8px] flex flex-row gap-[5px] items-center rounded-[6px] border-[1px] border-[#00AC4F]'}>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="9" height="14" viewBox="0 0 9 14" fill="none">
-                                                <g clip-path="url(#clip0_220_568)">
+                                                <g clipPath="url(#clip0_220_568)">
                                                     <path d="M8.31533 7.13126L4.26566 9.66876L0.213318 7.13126L4.26566 0L8.31533 7.13126ZM4.26566 10.4836L0.213318 7.9461L4.26566 14L8.318 7.9461L4.26566 10.4836V10.4836Z" fill="#00AC4F"/>
                                                 </g>
                                                 <defs>
@@ -417,7 +434,7 @@ const MainPage = () => {
                                     </h5>
                                     <div className={'flex flex-row gap-[6px]'}>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 15 24" fill="none">
-                                            <g clip-path="url(#clip0_220_611)">
+                                            <g clipPath="url(#clip0_220_611)">
                                                 <path d="M14.6203 12.225L7.49994 16.575L0.374939 12.225L7.49994 0L14.6203 12.225ZM7.49994 17.9719L0.374939 13.6219L7.49994 24L14.6249 13.6219L7.49994 17.9719V17.9719Z" fill="black"/>
                                             </g>
                                             <defs>
@@ -451,7 +468,7 @@ const MainPage = () => {
                                     </h5>
                                     <div className={'flex flex-row gap-[6px]'}>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 15 24" fill="none">
-                                            <g clip-path="url(#clip0_220_611)">
+                                            <g clipPath="url(#clip0_220_611)">
                                                 <path d="M14.6203 12.225L7.49994 16.575L0.374939 12.225L7.49994 0L14.6203 12.225ZM7.49994 17.9719L0.374939 13.6219L7.49994 24L14.6249 13.6219L7.49994 17.9719V17.9719Z" fill="black"/>
                                             </g>
                                             <defs>
@@ -485,7 +502,7 @@ const MainPage = () => {
                                     </h5>
                                     <div className={'flex flex-row gap-[6px]'}>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 15 24" fill="none">
-                                            <g clip-path="url(#clip0_220_611)">
+                                            <g clipPath="url(#clip0_220_611)">
                                                 <path d="M14.6203 12.225L7.49994 16.575L0.374939 12.225L7.49994 0L14.6203 12.225ZM7.49994 17.9719L0.374939 13.6219L7.49994 24L14.6249 13.6219L7.49994 17.9719V17.9719Z" fill="black"/>
                                             </g>
                                             <defs>
@@ -519,7 +536,7 @@ const MainPage = () => {
                                     </h5>
                                     <div className={'flex flex-row gap-[6px]'}>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 15 24" fill="none">
-                                            <g clip-path="url(#clip0_220_611)">
+                                            <g clipPath="url(#clip0_220_611)">
                                                 <path d="M14.6203 12.225L7.49994 16.575L0.374939 12.225L7.49994 0L14.6203 12.225ZM7.49994 17.9719L0.374939 13.6219L7.49994 24L14.6249 13.6219L7.49994 17.9719V17.9719Z" fill="black"/>
                                             </g>
                                             <defs>
@@ -553,7 +570,7 @@ const MainPage = () => {
                                     </h5>
                                     <div className={'flex flex-row gap-[6px]'}>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="24" viewBox="0 0 15 24" fill="none">
-                                            <g clip-path="url(#clip0_220_611)">
+                                            <g clipPath="url(#clip0_220_611)">
                                                 <path d="M14.6203 12.225L7.49994 16.575L0.374939 12.225L7.49994 0L14.6203 12.225ZM7.49994 17.9719L0.374939 13.6219L7.49994 24L14.6249 13.6219L7.49994 17.9719V17.9719Z" fill="black"/>
                                             </g>
                                             <defs>
@@ -576,6 +593,178 @@ const MainPage = () => {
                     </div>
                 </div>
             </div>
+            <div className={'bg-[#D9E0EC] bg-opacity-[20%] py-[100px] w-full justify-center items-center flex flex-col gap-[55px]'}>
+                <h5 className={'integralbold text-black text-[28px]'}>
+                    Collection Featured NFTs
+                </h5>
+                <div className={'flex flex-row flex-wrap items-center justify-center gap-[50px]'}>
+                    <div className={'flex flex-col gap-[30px]'}>
+                        <div className={'flex flex-row gap-[10px]'}>
+                            <Image className={'w-[265px] rounded-[11px] object-cover h-[270px]'} width={265} height={272} src={unsp1} alt={''}/>
+                            <div className={'flex flex-col gap-[8px]'}>
+                                <Image className={'w-[103px] object-cover rounded-[20px] h-[85px]'} width={103} height={85} src={unsp2} alt={''}/>
+                                <Image className={'w-[103px] object-cover rounded-[20px] h-[85px]'} width={103} height={85} src={unsp3} alt={''}/>
+
+                                <Image className={'w-[103px] object-cover rounded-[20px] h-[85px]'} width={103} height={85} src={unsp4} alt={''}/>
+
+
+                            </div>
+                        </div>
+                        <div className={'flex flex-col gap-[15px]'}>
+                            <h5 className={'dmsansbold text-[20px]'}>
+                                Amazing Collection
+                            </h5>
+                            <div className={'w-full flex flex-row justify-between items-center'}>
+                                <div className={'flex flex-row w-fit items-center gap-[10px]'}>
+                                    <Image src={profile1} width={32} height={32} alt={''}/>
+                                    <h5 className={'dmsansmedium text-[16px]'}>
+                                        by Arkhan
+                                    </h5>
+                                </div>
+                                <div className={'w-[100px] flex justify-center items-center rounded-[60px] h-[30px] border-[1px] border-[#2639ED]'}>
+                                    <h5 className={'dmsansbold text-[11px] text-[#2639ED]'}>
+                                        Total 54 Items
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={'flex flex-col gap-[30px]'}>
+                        <div className={'flex flex-row gap-[10px]'}>
+                            <Image className={'w-[265px] rounded-[11px] object-cover h-[270px]'} width={265} height={272} src={unsp1} alt={''}/>
+                            <div className={'flex flex-col gap-[8px]'}>
+                                <Image className={'w-[103px] object-cover rounded-[20px] h-[85px]'} width={103} height={85} src={unsp2} alt={''}/>
+                                <Image className={'w-[103px] object-cover rounded-[20px] h-[85px]'} width={103} height={85} src={unsp3} alt={''}/>
+
+                                <Image className={'w-[103px] object-cover rounded-[20px] h-[85px]'} width={103} height={85} src={unsp4} alt={''}/>
+
+
+                            </div>
+                        </div>
+                        <div className={'flex flex-col gap-[15px]'}>
+                            <h5 className={'dmsansbold text-[20px]'}>
+                                Amazing Collection
+                            </h5>
+                            <div className={'w-full flex flex-row justify-between items-center'}>
+                                <div className={'flex flex-row w-fit items-center gap-[10px]'}>
+                                    <Image src={profile1} width={32} height={32} alt={''}/>
+                                    <h5 className={'dmsansmedium text-[16px]'}>
+                                        by Arkhan
+                                    </h5>
+                                </div>
+                                <div className={'w-[100px] flex justify-center items-center rounded-[60px] h-[30px] border-[1px] border-[#2639ED]'}>
+                                    <h5 className={'dmsansbold text-[11px] text-[#2639ED]'}>
+                                        Total 54 Items
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={'flex flex-col gap-[30px]'}>
+                        <div className={'flex flex-row gap-[10px]'}>
+                            <Image className={'w-[265px] rounded-[11px] object-cover h-[270px]'} width={265} height={272} src={unsp1} alt={''}/>
+                            <div className={'flex flex-col gap-[8px]'}>
+                                <Image className={'w-[103px] object-cover rounded-[20px] h-[85px]'} width={103} height={85} src={unsp2} alt={''}/>
+                                <Image className={'w-[103px] object-cover rounded-[20px] h-[85px]'} width={103} height={85} src={unsp3} alt={''}/>
+
+                                <Image className={'w-[103px] object-cover rounded-[20px] h-[85px]'} width={103} height={85} src={unsp4} alt={''}/>
+
+
+                            </div>
+                        </div>
+                        <div className={'flex flex-col gap-[15px]'}>
+                            <h5 className={'dmsansbold text-[20px]'}>
+                                Amazing Collection
+                            </h5>
+                            <div className={'w-full flex flex-row justify-between items-center'}>
+                                <div className={'flex flex-row w-fit items-center gap-[10px]'}>
+                                    <Image src={profile1} width={32} height={32} alt={''}/>
+                                    <h5 className={'dmsansmedium text-[16px]'}>
+                                        by Arkhan
+                                    </h5>
+                                </div>
+                                <div className={'w-[100px] flex justify-center items-center rounded-[60px] h-[30px] border-[1px] border-[#2639ED]'}>
+                                    <h5 className={'dmsansbold text-[11px] text-[#2639ED]'}>
+                                        Total 54 Items
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className={'py-[50px] lg:py-[100px] gap-[50px] w-full flex flex-col lg:flex-row justify-center items-center'}>
+                <Image className={'xl:w-[606px] w-[450px] h-auto'} width={640} height={606} src={extrasvg} alt={''}/>
+                <div className={'flex flex-col items-center lg:items-start gap-[20px]'}>
+                    <h5 className={'integralbold text-[32px] w-[320px] break-words'}>
+                        Create and sell your NFTs
+                    </h5>
+                    <h6 className={'text-[18px] dmsansregular w-[350px] sm:w-[550px] md:w-[600px] lg:w-[517px] text-[#636363]'}>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi ac phasellus placerat a pellentesque tellus sed egestas. Et tristique dictum sit tristique sed non. Lacinia lorem id consectetur pretium diam ut. Pellentesque eu sit blandit fringilla risus faucibus.
+                    </h6>
+                    <div className={'w-[180px] lg:w-[212px] h-[50px] lg:h-[65px] cursor-pointer flex justify-center items-center rounded-[60px] bg-[#3D00B7]'}>
+                        <h4 className={'text-white select-none dmsansmedium  text-[17px] lg:text-[20px]'}>
+                            Sign Up Now
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div className={'py-[100px] w-full lg:px-[50px] xl:px-[100px] px-[100px]  bg-[#D9E0EC] bg-opacity-20'}>
+                <div className={'flex flex-col  w-full gap-[36px]'}>
+                    <h5 className={'integralbold  text-[24px]'}>
+                        Discover more NFTs
+                    </h5>
+                    <div className={'flex flex-row gap-[20px] flex-wrap justify-between w-full'}>
+                        <div className={'flex flex-wrap flex-row gap-[20px]'}>
+                            <div className={'px-[20px] py-[10px] rounded-[100px] text-white bg-[#3D00B7]'}>
+                                <h4 className={'text-[14px] font-medium'}>
+                                    All Categories
+                                </h4>
+                            </div>
+                            <div className={'px-[20px] py-[10px] rounded-[100px] text-black bg-opacity-20 bg-[#DCDCDC]'}>
+                                <h4 className={'text-[14px] font-medium'}>
+                                    Art
+                                </h4>
+                            </div>
+                            <div className={'px-[20px] py-[10px] rounded-[100px] text-black bg-opacity-20 bg-[#DCDCDC]'}>
+                                <h4 className={'text-[14px] font-medium'}>
+                                    Celebrities
+                                </h4>
+                            </div>
+                            <div className={'px-[20px] py-[10px] rounded-[100px] text-black bg-opacity-20 bg-[#DCDCDC]'}>
+                                <h4 className={'text-[14px] font-medium'}>
+                                    Gaming
+                                </h4>
+                            </div>
+                            <div className={'px-[20px] py-[10px] rounded-[100px] text-black bg-opacity-20 bg-[#DCDCDC]'}>
+                                <h4 className={'text-[14px] font-medium'}>
+                                    Sport
+                                </h4>
+                            </div>
+                            <div className={'px-[20px] py-[10px] rounded-[100px] text-black bg-opacity-20 bg-[#DCDCDC]'}>
+                                <h4 className={'text-[14px] font-medium'}>
+                                    Music
+                                </h4>
+                            </div>
+                        </div>
+                        <div className={'w-[135px] cursor-pointer rounded-[100px] h-[44px] gap-[5px] flex justify-center items-center bg-[#DCDCDC] px-[20px] py-[10px] bg-opacity-20'}>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <g clipPath="url(#clip0_220_743)">
+                                    <path d="M9.33333 20H14.6667V17.3333H9.33333V20ZM0 4V6.66667H24V4H0ZM4 13.3333H20V10.6667H4V13.3333Z" fill="#371C87"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_220_743">
+                                        <rect width="24" height="24" fill="white"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <h3 className={'text-[14px] text-[#371C87] dmsansmedium'}>All Filters</h3>
+                        </div>
+                    </div>
+                    <Category/>
+                </div>
+            </div>
+            <div className={'w-full h-[600px]'}></div>
         </div>
     );
 };
