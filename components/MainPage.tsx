@@ -595,7 +595,7 @@ const MainPage = () => {
                 </div>
             </div>
             <div className={'bg-[#D9E0EC] bg-opacity-[20%] py-[100px] w-full justify-center items-center flex flex-col gap-[55px]'}>
-                <h5 className={'integralbold text-black text-[28px]'}>
+                <h5 className={'integralbold text-black text-[20px] sm:text-[28px]'}>
                     Collection Featured NFTs
                 </h5>
                 <div className={'flex flex-row flex-wrap items-center justify-center gap-[50px]'}>
