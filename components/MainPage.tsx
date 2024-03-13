@@ -273,7 +273,7 @@ const MainPage = () => {
             <div className={'mt-[00px] py-[50px] lg:py-[100px] lg:px-[50px] xl:px-[100px] px-[25px] sm:x-[100px] w-full flex  flex-row'}>
                 <div className={'flex  w-full mt-[50px] lg:mt-0 lg:flex-col xl:flex-row h-full flex-col  lg:justify-center xl:justify-start justify-center items-center lg:items-center xl:items-start gap-[70px] lg:gap-[50px]  2xl:gap-[70px] xl:gap-[50px]'}>
                     <div className={'flex flex-col gap-[32px] px-[20px] sm:px-0'}>
-                        <Image className={'rounded-[24px] 2xl:w-[600px] w-[450px]'} src={unsplash1} width={400} heigh={400} alt={''}/>
+                        <Image className={'rounded-[24px] 2xl:w-[600px] w-[450px]'} src={unsplash1} width={400} height={400} alt={''}/>
                         <div className={'flex flex-row w-full items-center justify-between '}>
                             <div className={'flex flex-row gap-[15px]'}>
                                 <Image  width={48} height={48}  src={profile1} alt={''}/>
