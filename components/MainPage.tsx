@@ -31,6 +31,7 @@ import exprofile4 from '@/public/bg/exprofile4.svg'
 import exprofile5 from '@/public/bg/exprofile5.svg'
 import extrasvg from '@/public/bg/extra1s.svg'
 import Category from "@/components/Category";
+import Footer from "@/components/Footer";
 
 const MainPage = () => {
     return (
@@ -764,7 +765,7 @@ const MainPage = () => {
                     <Category/>
                 </div>
             </div>
-            <div className={'w-full h-[600px]'}></div>
+                <Footer/>
         </div>
     );
 };
