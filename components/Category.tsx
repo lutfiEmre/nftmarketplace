@@ -10,7 +10,7 @@ import profile5 from "@/public/bg/profile6.svg";
 const Category = () => {
     interface SeesState {
         number: number;
-        items: NodeListOf<Element>;
+        items: Element;
     }
 
     const [sees, setSees] = useState<SeesState>({
