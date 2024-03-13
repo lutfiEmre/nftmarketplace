@@ -8,13 +8,18 @@ import profile4 from "@/public/bg/profile5.svg";
 import profile5 from "@/public/bg/profile6.svg";
 
 const Category = () => {
-    const [sees, setSees] = useState<any>({
+    interface SeesState {
+        number: number;
+        items: NodeListOf<Element>;
+    }
+
+    const [sees, setSees] = useState<SeesState>({
         number: 8,
-        items: document.querySelectorAll('.categoryitem')
+        items: []
     });
 
     useEffect(() => {
-        const veri = document.querySelectorAll('.categoryitem')
+        const veri : NodeListOf<Element> = document.querySelectorAll('.categoryitem')
         setSees({
             ...sees,
             items: veri
@@ -26,7 +31,7 @@ const Category = () => {
         const itemsArray = Array.from(sees.items);
         const firstSix = itemsArray.slice(sees.number, sees.number + 4);
 
-        firstSix.map(item => item.classList.remove('hidden'))
+        firstSix.map((item: Element) => item.classList.remove('hidden'))
         setSees({...sees, number: sees.number + 4})
 
     }

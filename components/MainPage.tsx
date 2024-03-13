@@ -270,9 +270,9 @@ const MainPage = () => {
 
                 </div>
             </div>
-            <div className={'mt-[00px] py-[50px] lg:py-[100px] lg:px-[50px] xl:px-[100px] px-[100px] w-full flex  flex-row'}>
+            <div className={'mt-[00px] py-[50px] lg:py-[100px] lg:px-[50px] xl:px-[100px] px-[25px] sm:x-[100px] w-full flex  flex-row'}>
                 <div className={'flex  w-full mt-[50px] lg:mt-0 lg:flex-col xl:flex-row h-full flex-col  lg:justify-center xl:justify-start justify-center items-center lg:items-center xl:items-start gap-[70px] lg:gap-[50px]  2xl:gap-[70px] xl:gap-[50px]'}>
-                    <div className={'flex flex-col gap-[32px]'}>
+                    <div className={'flex flex-col gap-[32px] px-[20px] sm:px-0'}>
                         <Image className={'rounded-[24px] 2xl:w-[600px] w-[450px]'} src={unsplash1} width={400} heigh={400} alt={''}/>
                         <div className={'flex flex-row w-full items-center justify-between '}>
                             <div className={'flex flex-row gap-[15px]'}>
@@ -337,7 +337,7 @@ const MainPage = () => {
                                             1 of 8
                                         </h6>
                                     </div>
-                                    <div className={'px-[20px] mt-[6px] w-fit lg:py-[6px] xl:py-[14px] rounded-[50px] bg-[#3D00B7]'}>
+                                    <div className={'px-[20px] mt-[6px] h-[40px] flex justify-center items-center w-fit lg:py-[6px]  h-[40px] flex justify-center items-centerxl:py-[14px] rounded-[50px] bg-[#3D00B7]'}>
                                         <h5 className={'text-white'}>Place a bid</h5>
                                     </div>
 
@@ -370,7 +370,7 @@ const MainPage = () => {
                                             1 of 8
                                         </h6>
                                     </div>
-                                    <div className={'px-[20px] mt-[6px] w-fit lg:py-[6px] xl:py-[14px] rounded-[50px] border-[2px] border-[#3D00B7]'}>
+                                    <div className={'px-[20px] mt-[6px] w-fit lg:py-[6px]  h-[40px] flex justify-center items-center xl:py-[14px] rounded-[50px] border-[2px] border-[#3D00B7]'}>
                                         <h5 className={'text-[#220970]'}>Place a bid</h5>
                                     </div>
 
@@ -403,7 +403,7 @@ const MainPage = () => {
                                             1 of 8
                                         </h6>
                                     </div>
-                                    <div className={'px-[20px] mt-[6px] w-fit lg:py-[6px] xl:py-[14px] rounded-[50px] border-[2px] border-[#3D00B7]'}>
+                                    <div className={'px-[20px] mt-[6px] w-fit lg:py-[6px]  h-[40px] flex justify-center items-center xl:py-[14px] rounded-[50px] border-[2px] border-[#3D00B7]'}>
                                         <h5 className={'text-[#220970]'}>Place a bid</h5>
                                     </div>
 
